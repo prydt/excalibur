@@ -1,3 +1,5 @@
 # excalibur
-A School Project
-prydt.github.io/excalibur
+
+>A School Project
+
+https://prydt.github.io/excalibur
