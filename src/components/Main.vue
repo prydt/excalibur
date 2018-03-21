@@ -3,10 +3,10 @@
   <TopBar/>
   <div id="container">
     <div id="team1">
-      <img src="/static/thonking.jpg" alt="thonking">
+      <img src="static/thonking.jpg" alt="thonking">
     </div>
     <div id="team2">
-      <img src="/static/done.png" alt="done">
+      <img src="static/done.png" alt="done">
     </div>
   </div>
 </div>
