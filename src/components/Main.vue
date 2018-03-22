@@ -2,17 +2,9 @@
 <div>
   <TopBar/>
   <div id="container">
-<<<<<<< HEAD
     <div class="row" v-for="(text, pic) in side" :key="text">
       <p class="textbox">{{ text }}</p>
       <img class="side-img" :src="'static/' + pic + '.png'">
-=======
-    <div id="team1">
-      <img src="static/thonking.jpg" alt="thonking">
-    </div>
-    <div id="team2">
-      <img src="static/done.png" alt="done">
->>>>>>> parent of b81f5b4... GET PUSHED
     </div>
   </div>
 </div>
@@ -25,7 +17,6 @@ export default {
   name: 'Main',
   data () {
     return {
-<<<<<<< HEAD
       side: [
         {
           text: 'Merlyn is a great wizard who has helped and advised Arthur throughout the King’s lifetime, aiding Arthur’s ascension to the throne. With ability to see the future, dedication to the pursuit of Goodness, and knowledge of supernatural beings such as the Lady in the Lake, Merlyn’s role as Arthur’s mentor in Arthurian Legend goes unchallenged; however, even Merlyn has begun to feel the effects of time’s passage. As Arthur’s kingdom grows older, Merlyn has been making appearances less and less frequently.',
@@ -48,8 +39,6 @@ export default {
           pic: 'Mordred_Edited'
         }
       ]
-=======
->>>>>>> parent of b81f5b4... GET PUSHED
     }
   },
   components: {
@@ -73,7 +62,6 @@ img {
   float: left;
   display: block;
 }
-<<<<<<< HEAD
 
 .textbox {
   font-size: 1.5em;
@@ -87,6 +75,4 @@ img {
 .row {
   padding: 60px;
 }
-=======
->>>>>>> parent of b81f5b4... GET PUSHED
 </style>
