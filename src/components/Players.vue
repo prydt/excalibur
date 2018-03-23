@@ -3,8 +3,8 @@
   <TopBar/>
   <div id="container">
     <div id="side1">
-      <div id="text-box" v-for="item in sideText" :key="item">
-        <p>{{ item }}</p>
+      <div v-for="(item, index) in sideText" :key="item" :id="sideImgs[index]">
+        <p >{{ item }}</p>
       </div>
     </div>
     <div id="side2">
@@ -55,13 +55,18 @@ export default {
   width: 500px;
 }
 
-#text-box {
+#side1 div{
+  min-width: 850px;
+  max-width: 850px;
   padding: 60px;
   font-size: 1.5em;
 }
 
+#side1 div p {
+}
+
 .side-img {
-  width: 70%;
+  width: 250px;
   float: left;
   padding-top: 20px;
   padding-bottom: 60px;

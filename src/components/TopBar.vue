@@ -1,14 +1,14 @@
 <template>
 <div id="topbar-container">
   <h1>
-    <router-link to="/">
+    <router-link to="/" class="half-highlight">
       England All-Stars
     </router-link>
   </h1>
   <div id="topbar">
-    <router-link to="teams">Teams</router-link>
-    <router-link to="players">Player</router-link>
-    <router-link to="about">About</router-link>
+    <router-link to="teams"><span class="half-highlight">Teams</span></router-link>
+    <router-link to="players"><span class="half-highlight">Players</span></router-link>
+    <router-link to="about"><span class="half-highlight">About</span></router-link>
   </div>
 </div>
 </template>

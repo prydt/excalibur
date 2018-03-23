@@ -10,6 +10,10 @@
       <h2>Team White Backstory</h2>
       <p>T.H. White wrote The Once And Future King to recapture the essence and ideas of Arthurian legend while providing modern readers a more familiar interpretation of the ancient texts. Aiming to expand the Arthurian audience to the common man, White crated dialects to convey the maturity of the characters by utilizing unique - but more “modern-day” - tones. To further the present-day reader’s understanding of Arthurian legend, White even utilizes anachronisms (Medieval era Communism, anyone?). Despite the radical departure from the prim and proper writing style of Malory’s rendition, White manages to convey the grandiosity of the older author’s books. (In fact, White often directly references Malory throughout The Once and Future King.)</p>
     </div>
+    <div class="team">
+      <h2>Team Comparisons</h2>
+      <p>In Le Morte de Arthur, Malory writes in a more somber tone, in contrast to White whose prose is very light hearted and flamboyant even during the troubling times in the book. This can be attributed with Malory’s aim of creating a sort of epic, a character that is the epitome of justice and the ideal ruler of the entirety of England. The king, in Malory’s eyes, should be one who is both wise and just, one that never shirks from his responsibilities and yet never exceeds his boundaries as the king of England. White, on the other hand, aims to entertain the audience with common household items today suddenly appearing in Medieval England and comedic moments to keep the readers hooked. Because of this shift from a more history-like story to an entertaining one, the final battle of the King Arthur and his son Mordred is removed from T.H. White, presumably because the death of the hero Arthur would be unappealing to the masses at home.</p>
+    </div>
   </div>
 </div>
 </template>
@@ -27,5 +31,9 @@ export default {
 <style scoped>
 .team {
   padding: 50px;
+}
+
+.team p {
+  line-height: 1.6;
 }
 </style>

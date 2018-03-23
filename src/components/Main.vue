@@ -5,7 +5,10 @@
       <div id="logo">
         <img src="static/Chalice.png" alt="chalice logo">
       </div>
-      <img v-for="(item, index) in sideImgs" :key="item" class="side-img" :src="'static/' + item + '.png'" :title="sideTitles[index]">
+      <div v-for="(item, index) in sideImgs" :key="item">
+        <img class="side-img" :src="'static/' + item + '.png'" :title="sideTitles[index]">
+      </div>
+      <!-- <img v-for="(item, index) in sideImgs" :key="item" class="side-img" :src="'static/' + item + '.png'" :title="sideTitles[index]"> -->
   </div>
 </div>
 </template>
@@ -14,7 +17,6 @@
 import TopBar from '@/components/TopBar'
 
 export default {
-  name: 'main',
   data () {
     return {
       sideImgs: ['Gandalf_Edited', 'King_Arthur_Edited', 'Lancelot_Edited', 'guenever', 'Mordred_Edited'],
