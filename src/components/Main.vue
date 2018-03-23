@@ -14,6 +14,7 @@
 import TopBar from '@/components/TopBar'
 
 export default {
+  name: 'main',
   data () {
     return {
       sideImgs: ['Gandalf_Edited', 'King_Arthur_Edited', 'Lancelot_Edited', 'guenever', 'Mordred_Edited'],

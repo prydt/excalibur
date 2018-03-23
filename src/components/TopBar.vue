@@ -1,6 +1,10 @@
 <template>
 <div id="topbar-container">
-  <h1>England All-Stars</h1>
+  <h1>
+    <router-link to="/">
+      England All-Stars
+    </router-link>
+  </h1>
   <div id="topbar">
     <router-link to="teams">Teams</router-link>
     <router-link to="players">Player</router-link>
@@ -18,6 +22,11 @@ export default {
 h1 {
   text-align: center;
   font-weight: normal;
+}
+
+h1 a {
+  text-decoration: none;
+  color: black;
 }
 
 #topbar-container {
