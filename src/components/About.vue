@@ -6,6 +6,10 @@
       <h2>{{ item.name + ' - ' + item.grade }}</h2>
       <blockquote>{{ item.desc }}</blockquote>
     </div>
+    <div class="bio">
+      <h2>More Info</h2>
+      <p>To see the source code (which you should totally check out), go here: <a href="https://github.com/prydt/excalibur" target="_blank">https://github.com/prydt/excalibur</a></p>
+    </div>
     <div id="cite">
       <h2>Work Cited (images)</h2>
       <p>
